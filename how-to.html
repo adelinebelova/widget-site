@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'/> <!--social media icons-->
+        <link rel="stylesheet" href="styles.css">
+    </head>
+
+    <nav class="navbar">
+        <a class="logo" href="homepage.html">Widgets by Addie</a>
+        <a class="nav-options" href="https://github.com/adelinebelova/notion-widgets" target="_blank"><i class='bx bxl-github'></i></a>
+        <a class="nav-options" href="how-to.html">How to Use</a>
+        <a class="nav-options" href="#">FAQ</a>
+        <a class="nav-options" href="#">Buy Me a Coffee</a>
+    </nav>
+
+    <div id="wrapper-how">
+        <body class="body-how">
+            <h1 class="header-how">How to Add Widgets to <span class="slanted highlight">Notion</span> </h1>
+            <h3 class="subhead-how">Method One: </h3>
+
+            <div class="method-one">
+                <div class="text-box">
+                    <p>1. Copy the embedded link on the widget’s page.
+                        Paste the link into an embedded element 
+                        in your Notion page. </p>
+                    <div class="embedded-img-div">
+                        <img class="embedded-img" src="/widget-images/embedded-link.png" alt="embedded link image"/>
+                    </div>
+                    <p>  That’s it! The widget will automatically update. </p>
+                </div>
+            </div>
+
+            <h3 class="subhead-how">Method Two:</h3>
+
+            <div class="method-two">
+                <div class="text-box">
+                    <p>2. Create your own embedded link using the source code. This way, if the link is ever removed or changed, you will always have it! </p>
+                    <ul>
+                        <li>Go to the source code link on the widget’s page.</li>
+                        <img src="" alt="source code image"/>
+                        <li>Copy all of the code for your widget of choice. </li>
+                        <li>Create a Github account, and select “New Repository” from the + dropdown menu on the top-right corner. </li>
+                        <img src="" alt="new repository image"/>
+                        <li>Give it a name and create the repository. </li>
+                        <li>Select “creating a new file”</li>
+                        <img src="" alt="creating a new file image"/> 
+                        <li>Name it “index.html”, and paste the widget’s code. From there, click “Commit Changes”.</li>
+                        <li>Once committed, go to “Settings” and find “Pages” under the “Code and Automation” section. </li>
+                        <li>Under Branch, select “main”, “/root”, then hit save. This will create a website that will host your widget.</li>
+                        <img src="" alt="github pages setup image"/>
+                        <li>After several minutes, reload the page and select “Visit Site” at the top. It may take some time to deploy. </li>
+                        <img src="" alt="visit site image"/>
+                        <li>Your widget will now appear on the page! Simply copy the link to the page, and paste it into an embedded element on Notion.</li>
+                        <img src="" alt="embedded link image"/>
+                        <li>Your widget is now live on your Notion page!
+                            As long as your Github repository remains          
+                            active, you will always have your widget. </li>
+                    </ul>
+            
+                </div>
+            </div>
+        
+        </body>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <p class="creator">Designed and Created by Adeline Belova</p>
+            <p class="copyright">© Copyright <span class="slanted">Widgets by Addie</span> 2023</p>
+
+            <div class="foot-links">
+                <h1>
+                    <a href="#">FAQ</a>
+                </h1>
+                <h1>
+                    <a href="#">How to Use</a>
+                </h1>
+                <h1>
+                    <a href="#">Buy Me a Coffee</a>
+                </h1>
+            </div>
+        </div>
+    </footer>
+
+
+</html>
