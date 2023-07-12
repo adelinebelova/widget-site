@@ -369,6 +369,7 @@
 }
 
 .link-container{
+    min-width: 200px;
     width: 22vw;
     height: 7vh;
     margin:auto;
@@ -382,6 +383,8 @@
     overflow: hidden;
     text-decoration: none;
 }
+
+
 
 .hidden {
     display: none;
